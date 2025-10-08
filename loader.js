@@ -71,6 +71,8 @@ if (window.location.href.includes("1.8")) {
     loadClients("1.8");
 } else if (window.location.href.includes("1.5")) {
     loadClients("1.5");
+} else if (window.location.href.includes("1.11")) {
+    loadClients("1.11")
 } else {
     loadClients("1.3");
 }
